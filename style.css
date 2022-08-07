@@ -1,0 +1,33 @@
+.jumbotron {
+  background-color: rgb(194, 193, 193);
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+.jumbotron img {
+  width: 250px;
+  transition: 1s;
+}
+
+#about,
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#gallery {
+  background-color: rgb(194, 193, 193);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(194, 193, 193);
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .jumbotron img {
+    width: 350px;
+  }
+}
